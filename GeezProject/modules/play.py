@@ -178,7 +178,7 @@ def r_ply(type_):
         [
             [
                 InlineKeyboardButton("⏹", "leave"),
-                InlineKeyboardButton("⏸", "puse"),
+                InlineKeyboardButton("⏸", "pause"),
                 InlineKeyboardButton("▶️", "resume"),
                 InlineKeyboardButton("⏭", "skip"),
             ],
@@ -395,7 +395,7 @@ async def m_cb(b, cb):
             [
                 [
                     InlineKeyboardButton("⏹", "leave"),
-                    InlineKeyboardButton("⏸", "puse"),
+                    InlineKeyboardButton("⏸", "pause"),
                     InlineKeyboardButton("▶️", "resume"),
                     InlineKeyboardButton("⏭", "skip"),
                 ],
@@ -454,7 +454,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "GeezProject"
+        user.first_name = "AntiDrama Project"
     usar = user
     wew = usar.id
     try:
@@ -534,8 +534,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjets"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/antiidramaa"),
+                    InlineKeyboardButton("⛑ Channel", url="http://t.me/gadispemberani"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -581,8 +581,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/antiidramaa"),
+                    InlineKeyboardButton("⛑ Channel", url="http://t.me/gadispemberani"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -612,7 +612,7 @@ async def play(_, message: Message):
             while j < 5:
                 toxxt += f"{emojilist[j]} [{results[j]['title'][:25]}](https://youtube.com{results[j]['url_suffix']})\n"
                 toxxt += f" ├ 💡 **Duration** - {results[j]['duration']}\n"
-                toxxt += f" └ ⚡ __Powered by Geez Music Project__\n\n"
+                toxxt += f" └ ⚡ __Powered by AntiDrama Project__\n\n"
 
                 j += 1            
             koyboard = InlineKeyboardMarkup(
@@ -659,8 +659,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/antiidramaa"),
+                    InlineKeyboardButton("⛑ Channel", url="http://t.me/gadispemberani"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -719,7 +719,7 @@ async def ytplay(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "GeezProject"
+        user.first_name = "AntiDrama Project"
     usar = user
     wew = usar.id
     try:
@@ -801,8 +801,8 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/antiidramaa"),
+                    InlineKeyboardButton("⛑ Channel", url="http://t.me/gadispemberani"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -861,7 +861,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "GeezProject"
+        user.first_name = "AntiDrama Project"
     usar = user
     wew = usar.id
     try:
@@ -939,7 +939,7 @@ async def deezer(client: Client, message_: Message):
     
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="⛑ Channel", url="https://t.me/GeezProjects")],
+            [InlineKeyboardButton(text="⛑ Channel", url="https://t.me/gadispemberani")],
         ]
     )
     file_path = await convert(wget.download(url))
@@ -1034,8 +1034,8 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("🛡️ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/antiidramaa"),
+                    InlineKeyboardButton("🛡️ Channel", url="https://t.me/gadispemberani"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
