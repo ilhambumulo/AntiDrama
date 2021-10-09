@@ -120,7 +120,7 @@ def r_ply(type_):
         [
             [
                 InlineKeyboardButton("⏹", "cleave"),
-                InlineKeyboardButton("⏸", "cpuse"),
+                InlineKeyboardButton("⏸", "cpause"),
                 InlineKeyboardButton("▶️", "cresume"),
                 InlineKeyboardButton("⏭", "cskip"),
             ],
@@ -313,7 +313,7 @@ async def m_cb(b, cb):
             [
                 [
                     InlineKeyboardButton("⏹", "cleave"),
-                    InlineKeyboardButton("⏸", "cpuse"),
+                    InlineKeyboardButton("⏸", "cpause"),
                     InlineKeyboardButton("▶️", "cresume"),
                     InlineKeyboardButton("⏭", "cskip"),
                 ],
@@ -625,7 +625,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "AntiDrama Music"
     usar = user
     wew = usar.id
     try:
@@ -828,7 +828,7 @@ async def jiosaavn(client: Client, message_: Message):
             ],
             [
                 InlineKeyboardButton(
-                    text="Join Updates Channel", url=f"https://t.me/{updateschannel}"
+                    text="Join Channel", url=f"https://t.me/{updateschannel}"
                 )
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="ccls")],
